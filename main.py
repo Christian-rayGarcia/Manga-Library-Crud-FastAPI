@@ -42,7 +42,7 @@ async def get_mangas():
 
 @app.post("/manga", status_code=status.HTTP_201_CREATED)
 async def new_manga(manga: Manga):
-	conn = psycopg2.connect(database="mangalibrarydb", user="christian-raygarcia", password="D0nkeykong31")
+	conn = psycopg2.connect(database="mangalibrarydb", user="christian-raygarcia", password="")
 	cur = conn.cursor()
 	cur.execute(f"INSERT INTO manga (title, mangaka, thumbnail, state) VALUES ('{manga.title}', '{manga.mangaka}', '{manga.thumbnail}', '{manga.state}')")
 
