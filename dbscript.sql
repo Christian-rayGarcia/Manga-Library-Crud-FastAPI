@@ -1,10 +1,10 @@
 CREATE DATABASE mangalibrarydb;
 
 CREATE TABLE Manga(
-    bookid serial primary key
-    ,title CHARACTER VARYING NULL
-    ,mangaka CHARACTER VARYING NULL
-    ,thumbnail CHARACTER VARYING NULL
+    bookid int GENERATED ALWAYS AS IDENTITY PRIMARY KEY
+    ,title varchar
+    ,mangaka varchar
+    ,thumbnail varchar
     ,state int
     ,rating int NULL
 );

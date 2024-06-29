@@ -16,3 +16,5 @@ Table: Manga
 - POST: Add new manga records.
 - PUT: Update existing manga records.
 - DELETE: Remove manga records.
+
+![Screenshot 2024-06-29 at 16.31.54.png](..%2F..%2F..%2FDesktop%2FScreenshot%202024-06-29%20at%2016.31.54.png)![Screenshot 2024-06-29 at 16.32.18.png](..%2F..%2F..%2F..%2F..%2Fvar%2Ffolders%2Fvr%2Fndsqrdqx2mx9n7sqdfspnnx00000gn%2FT%2FTemporaryItems%2FNSIRD_screencaptureui_TZ6QXo%2FScreenshot%202024-06-29%20at%2016.32.18.png)
