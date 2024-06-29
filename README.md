@@ -17,5 +17,6 @@ Table: Manga
 - PUT: Updating State, Updating Rating.
 - DELETE: Remove manga records.
 
-![Screenshot 2024-06-29 at 16 31 54](https://github.com/Christian-rayGarcia/Manga-Library-Crud-FastAPI/assets/47110238/455b4d66-706c-418c-9c94-68c989ec82b7)
+![Screenshot 2024-06-29 at 16 43 48](https://github.com/Christian-rayGarcia/Manga-Library-Crud-FastAPI/assets/47110238/740f0279-ea3b-4b98-932c-0f53d4b429b5)
+
 ![Screenshot 2024-06-29 at 16 34 33](https://github.com/Christian-rayGarcia/Manga-Library-Crud-FastAPI/assets/47110238/2a5d019c-03b5-4b9f-801e-e53db7e49d87)
