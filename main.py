@@ -25,6 +25,9 @@ class UpdateStateRequestBody(BaseModel):
 	title: str
 	new_state: int
 
+class DeleteBody(BaseModel):
+	title: str
+
 
 @app.get("/status")
 async def get_status():
@@ -80,6 +83,18 @@ async def update_rating(update_state_body: UpdateStateRequestBody):
 	conn = psycopg2.connect(database="mangalibrarydb", user="christian-raygarcia", password="testtest123")
 	cur = conn.cursor()
 	cur.execute(f"UPDATE manga SET state = {update_state_body.new_state} WHERE title = '{update_state_body.title}'")
+
+	cur.close()
+	conn.commit()
+	conn.close()
+	return
+
+
+@app.delete("/manga/delete_manga", status_code=status.HTTP_410_GONE)
+async def update_rating(delete_record: DeleteBody):
+	conn = psycopg2.connect(database="mangalibrarydb", user="christian-raygarcia", password="testtest123")
+	cur = conn.cursor()
+	cur.execute(f"DELETE FROM manga WHERE title = '{delete_record.title}'")
 
 	cur.close()
 	conn.commit()
