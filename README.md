@@ -7,14 +7,14 @@ Table: Manga
 - title: The title of the manga.
 - mangaka (author): The author of the manga.
 - thumbnail: A link or path to the manga's thumbnail image.
-- state: An integer representing the reading status (1 = read, 2 = reading, 3 = wishlist).
+- state: An integer representing the reading status (1 = wishlist, 2 = reading, 3 = read).
 - rating: The rating of the manga.
 
 **Features**
 
 - GET: Retrieve manga records.
 - POST: Add new manga records.
-- PUT: Update existing manga records.
+- PUT: Updating State, Updating Rating.
 - DELETE: Remove manga records.
 
 ![Screenshot 2024-06-29 at 16 31 54](https://github.com/Christian-rayGarcia/Manga-Library-Crud-FastAPI/assets/47110238/455b4d66-706c-418c-9c94-68c989ec82b7)
