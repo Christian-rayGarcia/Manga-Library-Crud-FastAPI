@@ -18,4 +18,4 @@ Table: Manga
 - DELETE: Remove manga records.
 
 ![Screenshot 2024-06-29 at 16 31 54](https://github.com/Christian-rayGarcia/Manga-Library-Crud-FastAPI/assets/47110238/455b4d66-706c-418c-9c94-68c989ec82b7)
-![Screenshot 2024-06-27 at 17 16 33](https://github.com/Christian-rayGarcia/Manga-Library-Crud-FastAPI/assets/47110238/3e64845a-302c-46a5-b693-6c41f3eb0b11)
+![Screenshot 2024-06-29 at 16 34 33](https://github.com/Christian-rayGarcia/Manga-Library-Crud-FastAPI/assets/47110238/2a5d019c-03b5-4b9f-801e-e53db7e49d87)
